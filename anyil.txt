@@ -1,0 +1,38 @@
+nm -D libPrinterNative.so
+
+                 U __cxa_atexit@LIBC
+                 U __cxa_finalize@LIBC
+                 U __stack_chk_fail@LIBC
+                 U __strlen_chk@LIBC
+                 U __vsprintf_chk@LIBC
+                 U atoi@LIBC
+0000000000008464 T checkMerchantKey
+00000000000084a0 T checkName
+                 U free@LIBC
+000000000000854c T initMerchant
+000000000001371c T Java_com_print_libnative_Code941_code
+00000000000097c4 T Java_com_print_libnative_Compress_codeCPCL
+000000000000963c T Java_com_print_libnative_Compress_codeESC
+0000000000009464 T Java_com_print_libnative_Compress_codeLihu
+000000000000994c T Java_com_print_libnative_Compress_codeTSPL
+0000000000007b9c T Java_com_print_libnative_DFunction_dataprocesser
+00000000000138f8 T Java_com_print_libnative_F2Function_F2Data
+0000000000008d8c T Java_com_print_libnative_PrintNative_a
+0000000000009338 T Java_com_print_libnative_PrintNative_analysisData
+000000000000903c T Java_com_print_libnative_PrintNative_b
+0000000000008b18 T Java_com_print_libnative_PrintNative_checkBtName
+0000000000008c40 T Java_com_print_libnative_PrintNative_checkDevName
+0000000000008a00 T Java_com_print_libnative_PrintNative_checkUSB
+0000000000008d64 T Java_com_print_libnative_PrintNative_getEncryp
+000000000000891c T Java_com_print_libnative_PrintNative_init
+                 U malloc@LIBC
+                 U memcpy@LIBC
+                 U memset@LIBC
+                 U realloc@LIBC
+000000000000932c T reverseBits
+                 U strlen@LIBC
+                 U strncmp@LIBC
+                 U strncpy@LIBC
+
+
+
