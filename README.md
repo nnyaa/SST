@@ -1,4 +1,2 @@
-# SST
-first program for test 
-
-this a still a test 
+Ionic：主要负责前端用户界面的构建和应用的样式，提供了一整套美观的预构建组件，简化了开发过程。
+Cordova：负责将 Ionic 应用打包为原生应用，并提供与设备硬件的交互功能，使得 Web 应用可以利用设备的原生能力。
