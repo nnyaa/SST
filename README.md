@@ -17,3 +17,25 @@
     7.运行以下命令以构建 APK 文件：
        ionic cordova build android
         
+前端
+![image](https://github.com/user-attachments/assets/25a2b94d-ba2b-4b32-aada-a2155c70919a)
+
+后端
+![image](https://github.com/user-attachments/assets/690d6e5f-be50-4f91-8627-994cfbfb15f8)
+
+Ionic和Cordova属于前端移动应用，而Java SE 8和Tomcat是后端服务
+
+Ionic的app.component.ts是入口组件，Cordova的config.xml是配置，Android的MainActivity是启动点
+
+Tomcat通常用于运行Servlet/JSP应用,Java Web应用。
+
+1.Ionic应用通过HttpClient（Angular）发送请求到Tomcat后端：
+2.Tomcat解析请求路径，调用对应的Servlet处理。
+3.Java后端返回JSON数据，Ionic前端渲染结果。
+
+部署流程
+后端：通过Maven打包为WAR文件，部署到Tomcat的webapps/目录。
+前端：运行ionic build --prod && cordova build android生成APK。
+联调：确保Tomcat端口开放，Android应用配置正确的API地址。
+            
+
